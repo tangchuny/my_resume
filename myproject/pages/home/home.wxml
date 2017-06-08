@@ -1,0 +1,11 @@
+<view class="container home_bg">
+    <view class="home_bg1"></view>
+
+    <view class="home_bg2"></view>
+    <view class="name">汤春燕</view>
+    <view class="btn_box">
+      <view class="btn" bindtap="openInfo">基本信息</view>
+      <view class="btn"  bindtap="openItem">项目经验</view>
+      <view class="btn" bindtap="openWorks">工作经验</view>
+    </view>
+</view> 

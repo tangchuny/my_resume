@@ -1,0 +1,28 @@
+<!--footer.wxml-->
+
+<template name="footer">
+<!--底部导航-->
+<view class="footer_container">
+        <view class="foot-item foot1">
+        <navigator url="{{pageEvent ? '' : '../baseInfo/baseInfo'}}" hover-class="none" open-type="redirect">
+          <image src="../../images/foot-event-icon1{{pageEvent ? '-red' : ''}}.png" />
+          <view class="{{pageEvent ? 'font-gradient' : ''}}">基本信息</view>
+        </navigator>
+        </view>
+        
+        <view class="foot-item foot2">
+        <navigator url="{{item ? '' : '../item/item'}}" hover-class="none" open-type="redirect">
+        <image src="../../images/foot-event-icon2{{item ? '-red' : ''}}.png" style="margin-top:-1rpx;"/>
+         <view class="font-gradient" style="margin-top:-4rpx;">项目经验</view>
+        </navigator>
+        </view>
+        
+        <view class="foot-item foot3">
+        <navigator url="{{work ? '' : '../work/work'}}" hover-class="none" open-type="redirect">
+        	<image style="margin-top:-1rpx;" src="../../images/foot-event-icon3{{work ? '-red' : ''}}.png" />
+       		<view class="{{work ? 'font-gradient' : ''}}" style="margin-top:-4rpx;">工作经验</view>
+        </navigator>
+        </view>
+
+</view>
+</template>

@@ -1,0 +1,41 @@
+.resume_container{
+    background: white;
+}
+.resume_header_left{
+    margin-left: 16rpx;
+}
+.resume_header_left_name{
+    height:80rpx;
+    font-size: 40rpx;
+}
+.resume_header_left_others{
+    margin: 20rpx 12rpx;
+}
+.resume_first_title{
+    margin: 20rpx 0rpx 20rpx 0px;
+    height: 100rpx;
+    line-height:100rpx;
+    background-color: #DFFFDF;
+    position: relative;
+    color: #0000C6;
+}
+.resume_first_title_right{
+border-left:16rpx solid #66B3FF;
+font-size:36rpx;
+padding-left:10rpx;
+}
+.resume_direction_content{
+    overflow: hidden;
+}
+.resume_direction_content_left{
+    text-align: right;
+    width:20%;
+font-weight:bold;
+}
+.resume_direction_content{
+    padding:0 20rpx 0 30rpx;
+    line-height:60rpx;
+}
+
+
+

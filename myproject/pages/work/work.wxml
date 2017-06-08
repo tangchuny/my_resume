@@ -1,0 +1,28 @@
+<view class="resume_container">
+
+    <!-- 工作经历 -->
+   <view class="resume_first_title">
+        <view class="resume_first_title_right">工作经历1</view>
+    </view>
+    
+   <view class="resume_direction_content">
+        <view>2015/11--2017/5</view>
+        <view>深圳市云软信息技术有限公司|前端开发工程师</view>
+         <view >行业类别：计算机软件|企业性质：民营|规模：100-499人|职位月薪：10001-15000元/月</view>
+        <view>工作描述：小程序项目前端、真龙公众号前端开发。</view>
+    </view>
+     <view class="resume_first_title">
+        <view class="resume_first_title_right">工作经历2</view>
+    </view>
+     <view class="resume_direction_content">
+        <view>2014/1--2015/11</view>
+        <view>北京易诚网络信息科技有限公司（深圳 |前端开发工程师</view>
+         <view >行业类别：计算机软件|企业性质：民营|规模：100-499人|职位月薪：8001-12000元/月</view>
+        <view>工作描述：平安银行企业网银的前端开发、平安银行橙子银行pc端、app（混合型）前端开发。</view>
+    </view>
+   
+</view>
+
+ <!--底部导航-->
+    <import src="../footer/footer.wxml" />
+    <template is="footer" data="{{...footerConfig}}"/>

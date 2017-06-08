@@ -1,0 +1,72 @@
+<view class="resume_container">
+   <view class="resume_direction_content">
+	   <view class="my">
+	   		<image src="http://myproject-1253666256.cosgz.myqcloud.com/resume/my.png" mode="aspectFill"></image>
+	   </view>
+             <view class="resume_header_left_name">汤春燕</view>
+             <view class="resume_header_left_other">女 | 已婚已育 | 1987/01 </view>
+             <view>户口：广西梧州  | 现住:深圳</view>
+             <view>学校：梧州学院  | 学历：本科  | 专业：计算机科学与技术</view>
+           	 <view>家庭地址：广西南宁竹溪新兴苑</view>
+             <view>电话：13878135140  |  E-mail:442593738@qq.com</view>
+   </view>
+   <view class="resume_first_title">
+        <view class="resume_first_title_right">专业技能</view>
+    </view>
+    <view class="resume_direction_content">
+        <view>熟悉微信小程序的开发，backbone、jquery等框架;</view>
+		<view>熟悉原生态javascript; </view>
+		<view>体验：从产品目标和用户需求出发，结合视觉、交互、前端体系、用Yslow分析网页性能; </view>
+		<view>交互：优化业务流程和页面结构，建立的交互规范、动效设计; </view>
+		<view>了解http、web性能以及安全的相关知识; </view>
+		<view>熟练运用谷歌等浏览器进行断点跟踪; </view>
+		<view>熟悉用ps进行网页设计; </view>
+		<view>了解java语言开发基础; </view>
+		<view>掌握PS/AI/hbuilder/eclipes/aptana, 等工具，html5、css3、jquery、ajax等前端知识; </view>
+		<view>熟悉基于SVN的团队协作开发模式，有较好的团队开发能力; </view>
+		<view>熟悉使用git进行团队开发，个人的git地址： http://www.github.com/tangchuny。（自学的相关技能代码放在git上） </view>
+		<view>个人网站：https://www.tangcy.cn/client/（h5+css3动画）</view>
+      </view>
+   <!-- 求职意向 -->
+   <view class="resume_first_title">
+        <view class="resume_first_title_right">求职意向</view>
+    </view>
+    
+        <view class="resume_direction_content">
+          <text class="resume_direction_content_left">工作性质：</text>
+           <text class="resume_direction_content_right">全职</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">期望职业：</text>
+           <text class="resume_direction_content_right">nodejs开发、大数据开发、前端开发、h5开发、js开发</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">期望行业：</text>
+           <text class="resume_direction_content_right">计算机软件</text>
+        </view>
+         <view class="resume_direction_content">
+           <text class="resume_direction_content_left">工作地区：</text>
+           <text class="resume_direction_content_right">深圳</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">期望薪资：</text>
+           <text class="resume_direction_content_right">面议</text>
+        </view>
+   
+    <!-- 职业目标 -->
+   <view class="resume_first_title">
+        <view class="resume_first_title_right">职业目标</view>
+    </view>
+    
+        <view class="resume_direction_content">
+             <view>成为一个优秀的全栈工程师。</view>
+             <view>1、能够综合运用计算机相关知识及其他知识，快速分定位析问题，并解决问题;</view>
+             <view>2、对于新的需求，能够快速找出较优的解决方案,搭建高性能、安全可靠、可扩展架构;</view>
+             <view>3、组建团队，设计、研发产品。</view>
+      </view>
+
+</view>
+
+ <!--底部导航-->
+    <import src="../footer/footer.wxml" />
+    <template is="footer" data="{{...footerConfig}}"/>

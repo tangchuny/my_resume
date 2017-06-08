@@ -1,0 +1,89 @@
+<view class="resume_container">
+   <!-- 项目经验 -->
+	   <view class="resume_first_title">
+	        <view class="resume_first_title_right">项目经验1</view>
+	    </view>
+    
+        <view class="resume_direction_content">
+          <text class="resume_direction_content_left">项目名称：</text>
+           <text class="resume_direction_content_right">中欧招聘小程序、北大招牌小程序</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目描述：</text>
+           <text class="resume_direction_content_right">
+           中欧学院基于事件的小程序主要以发布事件为主，面向学校学生、老师、以及校友的社交信息发布平台，
+           后端采用的是spring boot框架开发。
+   	  项目的主要功能有：用户登陆、事件发布、用户认证、地图定位、图片上传等功能;
+           项目中主要负责前端页面切图、请求数据接口并实现前端的业务逻辑功能、封装基本的公共功能。</text>
+        </view>
+         <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目心得：</text>
+           <view class="resume_direction_content_right">
+          	 <view>1、小程序用户登陆需要封装在接口请求中，方便页面分享出去后其他好友打开有可以登陆;</view>
+           	 <view>2、页面bottom和footer之间有时候间距有兼容问题，苹果手机的需要设置padding-bottom相对高点;</view>
+           	 <view>3、storage问题，storage只能存10M,所以应该只是把全局用的保存在storage中;</view>
+           	 <view>4、用scroll-view 时候主要苹果和安卓的兼容问题;</view>
+           	 <view>5、目前小程序支持2M的代码上传,为了减少文件上传，小图标可以用编码代替，其他图片可以上传到腾讯云的对象存储中。 </view>
+           </view>
+        </view>
+   
+   
+   		 <view class="resume_first_title">
+	        <view class="resume_first_title_right">项目经验2</view>
+	    </view>
+    
+        <view class="resume_direction_content">
+          <text class="resume_direction_content_left">项目名称：</text>
+           <text class="resume_direction_content_right">真龙公众号</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目描述：</text>
+           <text class="resume_direction_content_right">中烟真龙产品的公众号，主要有各类节日活动等</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">相关技术：</text>
+           <text class="resume_direction_content_right">react、jq、js、html5、css3</text>
+        </view>
+         <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目心得：</text>
+            <view class="resume_direction_content_right">
+          	 <view>1、活动参与人员多的活动需要考虑加载速度;</view>
+           	 <view>2、不规则页面设计的排版可以用minimum-scale来实现等比例压缩来适配手机屏幕，例如父亲节活动;</view>
+           	 <view>3、输入框和span不设置同行不设置宽度的情况下在部分安卓机上有兼容</view>
+           </view>
+        </view>
+        
+        
+         <view class="resume_first_title">
+	        <view class="resume_first_title_right">项目经验3</view>
+	    </view>
+    
+        <view class="resume_direction_content">
+          <text class="resume_direction_content_left">项目名称：</text>
+           <text class="resume_direction_content_right">平安银行橙子银行</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目描述：</text>
+           <text class="resume_direction_content_right">平安银行的直销银行</text>
+        </view>
+        <view class="resume_direction_content">
+           <text class="resume_direction_content_left">相关技术：</text>
+           <text class="resume_direction_content_right">backbone、jq、html5、require</text>
+        </view>
+         <view class="resume_direction_content">
+           <text class="resume_direction_content_left">项目心得：</text>
+            <view class="resume_direction_content_right">
+          	 <view>作为银行的项目考虑的主要是安全问题,主要预防以下几种攻击：</view>
+           	 <view>1、XSS (Cross Site Script) ，跨站脚本攻击;</view>
+           	 <view>2、CSRF(Cross Site Request Forgery)，跨站点伪造请求</view>
+           	 <view>3、sql注入攻击</view>
+           	 <view>4、特殊字符转意</view>
+           	 <view></view>
+           </view>
+        </view>
+   
+</view>
+
+ <!--底部导航-->
+    <import src="../footer/footer.wxml" />
+    <template is="footer" data="{{...footerConfig}}"/>
